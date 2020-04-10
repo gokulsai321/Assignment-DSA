@@ -97,7 +97,7 @@ void main()
     struct node *root = NULL; 
     root = insert(root, 3);
     do{
-	printf("MENU \n1.Insert\n2.Delete\n3.Display\n4.exit\n");
+	printf("\n MENU \n1.Insert\n2.Delete\n3.Display\n4.exit\n");
 	scanf("%d",&ch);
 	if(ch==1)
 	{
